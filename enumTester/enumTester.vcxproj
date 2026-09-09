@@ -124,6 +124,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DungeonCrawler.cpp" />
+    <ClCompile Include="StringTester.cpp" />
     <ClCompile Include="StructTest.cpp" />
     <ClCompile Include="Week2.cpp" />
   </ItemGroup>
