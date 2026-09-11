@@ -125,6 +125,7 @@ int main()
 			if (guy.potionCount == 0 || guy.potionsUsed == 0) {
 				
 				guy.score -= (guy.potionCount * 10);
+				if (guy.score < 0) { guy.score = 0; }
 				cout << endl << "Final Score: " << guy.score << endl; guy.isDead = true;
 				break;
 			}
