@@ -70,7 +70,7 @@ void playerTurn()
 		if (guy.potionCount > 0)
 		{
 			guy.potionsUsed++;
-			guy.health += potion(); cout << "You now have " << guy.health << " remaining." << endl << endl; break;
+			guy.health += potion(); cout << "You now have " << guy.health << " health remaining." << endl << endl; break;
 		}
 		else cout << "You are out of potions";
 	}

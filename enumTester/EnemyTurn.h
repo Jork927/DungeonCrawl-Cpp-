@@ -23,6 +23,6 @@ int enemyTurn()
 	int realDamage = 0;
 	realDamage = randomDamage * Orc.damageMult;
 	guy.health -= realDamage;
-	cout << "You are hit for " << realDamage << " damage" << endl << "You now have " << guy.health << " remaining." << endl << endl;
+	cout << "You are hit for " << realDamage << " damage" << endl << "You now have " << guy.health << " health remaining." << endl << endl;
 	return randomDamage;
 }

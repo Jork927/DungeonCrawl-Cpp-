@@ -126,6 +126,7 @@
     <ClCompile Include="ArrayTester.cpp" />
     <ClCompile Include="DungeonCrawler.cpp" />
     <ClCompile Include="Globals.cpp" />
+    <ClCompile Include="saveDataTest.cpp" />
     <ClCompile Include="StringTester.cpp" />
     <ClCompile Include="StructTest.cpp" />
     <ClCompile Include="Week2.cpp" />
