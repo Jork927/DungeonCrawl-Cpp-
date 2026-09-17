@@ -15,7 +15,7 @@ struct GameCharacter
 {
 	string name = "Unknown";
 	int health = 100;
-	int potionCount = 0;
+	int potionCount = -1;
 	int potionsUsed = 0;
 	string weapon = "Sword";
 	bool isDead = false;

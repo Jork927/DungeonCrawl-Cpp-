@@ -11,7 +11,7 @@ void respawnOrc()
 {
 	Orc = Enemy();
 	Orc.health = rand() % 75 + 50;
-	Orc.damageMult += rand() % (20 + 10) / 10;
+	Orc.damageMult += rand() % (10 + 5) / 20;
 
 }
 
