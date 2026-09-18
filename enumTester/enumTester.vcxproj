@@ -127,6 +127,8 @@
     <ClCompile Include="DungeonCrawler.cpp" />
     <ClCompile Include="Globals.cpp" />
     <ClCompile Include="pointerTest.cpp" />
+    <ClCompile Include="inheritTest.cpp" />
+    <ClCompile Include="polymorphTest.cpp" />
     <ClCompile Include="saveDataTest.cpp" />
     <ClCompile Include="StringTester.cpp" />
     <ClCompile Include="StructTest.cpp" />
